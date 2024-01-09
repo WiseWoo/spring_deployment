@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pod-mysb
-        image: jiwoo0/ecs_spring:19
+        image: jiwoo0/ecs_spring:20
         ports:
         - containerPort: 8085
 ---
