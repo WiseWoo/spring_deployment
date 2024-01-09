@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: spring-dep
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: mysb
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pod-mysb
-        image: jiwoo0/ecs-spring:19
+        image: jiwoo0/ecs_spring:19
         ports:
         - containerPort: 8085
 ---
